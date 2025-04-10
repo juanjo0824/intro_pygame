@@ -41,4 +41,8 @@ while True:
     if event.type == pygame.QUIT:
         break
 
+    event = pygame.event.wait()
+    if event.type == pygame.QUIT:
+        break
+
 pygame.quit()
