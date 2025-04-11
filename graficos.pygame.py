@@ -74,8 +74,7 @@ while 1:
 
     #Texto
     #Fuente de tipo Arial, tamaño 35, negrilla y cursiva.
-    fuente = pygame.font.Font(None, 24)
-    #fuente_arial = pygame.font.SysFont("Arial", 35, 1, 1)
+    fuente_arial = pygame.font.SysFont("Arial", 35, 1, 1)
     #texto = fuente_arial.render("Sistemas Guanenta", 1, blanco)
     #ventana.blit(texto,(50,50))
 
